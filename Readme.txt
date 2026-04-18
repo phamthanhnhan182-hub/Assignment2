@@ -3,12 +3,10 @@ ASSIGNMENT 2 - SOFTWARE TECHNOLOGY
 ===========================================================
 
 1. THÔNG TIN CHUNG:
-- Nhóm: [Tên nhóm của Nhàn]
 - Thành viên: 
   + Phạm Thành Nhân - 524H0020
   + Ngô Tấn Thành - 524H0031
-  + ...
-- Link GitHub: [Dán link sau khi làm bước 2 bên dưới]
+- Link GitHub: https://github.com/phamthanhnhan182-hub/Assignment2_Exer4_Final
 - Video Demo: [Dán link YouTube/Drive nếu có, không có thì xóa dòng này]
 
 2. CẤU TRÚC SOURCE CODE:
