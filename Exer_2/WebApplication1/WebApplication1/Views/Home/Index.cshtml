@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Hệ thống Quản lý Đơn hàng";
+}
+
+<div class="jumbotron text-center">
+    <h1>Hệ Thống Quản lý TDTU</h1>
+    <p class="lead">Chào mừng @Session["UserName"] đã quay trở lại!</p>
+</div>
+
+<div class="row text-center">
+    <div class="col-md-4">
+        <div style="padding: 20px; border: 1px solid #ddd; border-radius: 10px;">
+            <h3>Mặt Hàng</h3>
+            <p>Quản lý danh sách các sản phẩm (Items)</p>
+            <a href="@Url.Action("Index", "Items")" class="btn btn-primary">Truy cập ngay &raquo;</a>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div style="padding: 20px; border: 1px solid #ddd; border-radius: 10px;">
+            <h3>Đại Lý</h3>
+            <p>Quản lý thông tin các đại lý (Agents)</p>
+            <a href="@Url.Action("Index", "Agents")" class="btn btn-success">Truy cập ngay &raquo;</a>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div style="padding: 20px; border: 1px solid #ddd; border-radius: 10px;">
+            <h3>Đặt Hàng</h3>
+            <p>Tạo đơn hàng mới (Order Form)</p>
+            <a href="@Url.Action("Create", "Orders")" class="btn btn-warning">Truy cập ngay &raquo;</a>
+        </div>
+    </div>
+</div>

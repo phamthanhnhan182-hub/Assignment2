@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Đăng nhập hệ thống";
+}
+
+<div style="width: 300px; margin: 50px auto; padding: 20px; border: 1px solid #ccc; border-radius: 10px;">
+    <h2 style="text-align: center;">Đăng nhập</h2>
+    <hr />
+
+    @using (Html.BeginForm("Login", "Account", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        if (ViewBag.Error != null)
+        {
+            <div style="color: red; margin-bottom: 10px;">@ViewBag.Error</div>
+        }
+
+        <div style="margin-bottom: 15px;">
+            <label>Tên đăng nhập:</label><br />
+            <input type="text" name="username" class="form-control" style="width: 100%;" required />
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label>Mật khẩu:</label><br />
+            <input type="password" name="password" class="form-control" style="width: 100%;" required />
+        </div>
+
+        <div style="text-align: center;">
+            <input type="submit" value="Đăng nhập" class="btn btn-primary" style="padding: 5px 20px;" />
+        </div>
+    }
+</div>
