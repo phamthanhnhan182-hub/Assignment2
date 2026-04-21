@@ -6,7 +6,7 @@ ASSIGNMENT 2 - SOFTWARE TECHNOLOGY
 - Thành viên: 
   + Phạm Thành Nhân - 524H0020
   + Ngô Tấn Thành - 524H0031
-- Link GitHub: https://github.com/phamthanhnhan182-hub/Assignment2_Exer4_Final
+- Link GitHub: https://github.com/phamthanhnhan182-hub/Assignment2
 - Video Demo: https://drive.google.com/drive/folders/1y8eM5Os1MJsl1HJpY6EhxKRU_kwHjeu3?usp=sharing
 2. CẤU TRÚC SOURCE CODE:
 - Exer_2: ASP.NET MVC (.NET Framework) - DB First.
