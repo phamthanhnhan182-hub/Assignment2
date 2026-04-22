@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Exer_1_2.Tests/Exer_1_2.Tests.csproj" />
+  <Project Path="Exer_3.Tests/Exer_3.Tests.csproj" />
+  <Project Path="../Exer_1/BLL/BLL.csproj" Id="33333333-3333-3333-3333-333333333333" />
+  <Project Path="../Exer_2/WebApplication1/WebApplication1/WebApplication1.csproj" Id="d383953b-0ee7-4818-8c4e-2022183fa445" />
+  <Project Path="../Exer_3/Assignment2_Exer3_Final/Assignment2_Exer3_Final/Assignment2_Exer3_Final.csproj" />
+</Solution>
